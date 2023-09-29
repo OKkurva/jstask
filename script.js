@@ -1,31 +1,31 @@
 
 
-let firstword = "hello";
-let secword ="owu";
-let thirdword ="com";
-let fourthword ="ua";
-const firstnum = 1;
-const secnum = 10;
-const thirdnum = -999;
-const fourthnum =123;
-const fifthnum = 3.14;
-const sixthnum = 2.7;
-const seventhnum = 16;
-const firstboolean = true; 
-const secboolean = false; 
+// let firstword = "hello";
+// let secword ="owu";
+// let thirdword ="com";
+// let fourthword ="ua";
+// const firstnum = 1;
+// const secnum = 10;
+// const thirdnum = -999;
+// const fourthnum =123;
+// const fifthnum = 3.14;
+// const sixthnum = 2.7;
+// const seventhnum = 16;
+// const firstboolean = true; 
+// const secboolean = false; 
 
-console.log(firstword, secword, thirdword, fourthword);
-console.log(firstnum, secnum, thirdnum, fourthnum, fifthnum, sixthnum, seventhnum);
-console.log(firstboolean, secboolean);
+// console.log(firstword, secword, thirdword, fourthword);
+// console.log(firstnum, secnum, thirdnum, fourthnum, fifthnum, sixthnum, seventhnum);
+// console.log(firstboolean, secboolean);
 
-const fstring = "Ya tut";
-const secstring = "Wiwi";
-const thirdstring ="Goku";
-const numberf = 9356;
-const numbers = 3750;
-const numberthird = 1029;
+// const fstring = "Ya tut";
+// const secstring = "Wiwi";
+// const thirdstring ="Goku";
+// const numberf = 9356;
+// const numbers = 3750;
+// const numberthird = 1029;
 
-console.log(numberf, numbers, numberthird);
+// console.log(numberf, numbers, numberthird);
 
 // let Fname = prompt("What's your name?", "Yarik");
 
@@ -297,9 +297,107 @@ console.log(numberf, numbers, numberthird);
 
 // alert(`Привіт  ${Name}  ${SurName}  , мої вітання що ви дожили до  ${Age}  років) `)
 
-// let Num1 = promt("Enter first num:" , "0")
-// let Num2 = promt("Enter second num:" , "0")
-// let Num3 = promt("Enter third num:" , "0")
+// let Num1 = prompt("Enter first num:" , 0);
+// Num1 = +Num1;
+
+// let Num2 = prompt("Enter second num:" , 0);
+// Num2 = +Num2;
+
+// let Num3 = prompt("Enter third num:" , 0);
+// Num3 = +Num3;
+
+// const numberArray = [];
+// if (Num1 && Num2 && Num3) {
+//     numberArray.push(Num1, Num2, Num3);
+//     const sortedArray = numberArray.sort((a,b) => b - a);
+//     console.log(sortedArray);
+// }
+// console.log(numberArray);
+
+
+// const Go = "Йди!";
+
+// const Weit = "Чекай!";
+
+// const Stop = "Стій!";
+
+// const Bug = "Роби що хочеш:)";
+
+//  const GreenLight = "Зелений";
+
+//  const YellowLight = "Жовтий";
+
+//  const RedLight = "Червоний";
+
+// let human = prompt("Введіть колір світлофору: ", "Голубий")
+
+// if (human == GreenLight){
+//     alert(Go)
+
+// } else if(human == YellowLight){
+//     alert(Weit)
+
+// } else if(human == RedLight){
+//     alert(Stop)
+
+// } else if(human !== GreenLight || human !== YellowLight || human !== RedLight){
+//     alert("Введіть колір світлофору!")
+// } 
+
+const Go = "Йди!";
+
+const Greenwait = "Почекай поки даун проїде і його виїбе патрулька)";
+
+const Weit = "Чекай!";
+
+const YellowWait = "Почекай там придурок летить на жовтий!";
+
+const Stop = "Стій!";
+
+const RedWait = "Куда ти лізеш?!";
+
+const Bug = "Роби що хочеш:)";
+
+ const GreenLight = "Зелений";
+
+ const YellowLight = "Жовтий";
+
+ const RedLight = "Червоний";
+
+ const NoCar = "нема машин";
+ 
+ const Car = "їдуть машини";
+
+let human = prompt("Введіть колір світлофору: ", "Голубий")
+let humanCar = prompt("Введіть стан машин: ", "Машини в залі")
+
+if (human == GreenLight && humanCar == NoCar){
+
+    alert(Go)
+
+} else if(human == GreenLight && humanCar == Car){
+
+    alert(Greenwait)
+
+} else if(human == YellowLight && humanCar == NoCar){
+
+    alert(Weit)
+
+} else if(human == YellowLight && humanCar == Car){
+    
+    alert(YellowWait)
+
+} else if(human == RedLight && humanCar == NoCar){
+
+    alert(Stop)
+
+} else if(human == RedLight && humanCar == Car){
+
+    alert(RedWait)
+
+} else if(human !== GreenLight || human !== YellowLight || human !== RedLight || humanCar !== Car || humanCar !== NoCar){
+    alert("Введіть стан на дорозі!")
+}
 
 
 
